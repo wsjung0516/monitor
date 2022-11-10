@@ -1,8 +1,11 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  content: ["./**/*.html"],
   safelist: ["active"],
+  content: [
+    './src/**/*.{html,js}',
+    './index.html'
+  ],
   theme: {
     fontFamily: {
       header: ["Raleway", "sans-serif"],

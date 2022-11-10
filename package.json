@@ -1,0 +1,27 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli)  \r * version 6.2.1. (The first version)\r * version 7.2.3 (2019.11)\r * version 12.1.3 (2021.7)",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss tailwind.css -o css/styles.css",
+    "watch": "postcss tailwind.css -o css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsjung0516/monitor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wsjung0516/monitor/issues"
+  },
+  "homepage": "https://github.com/wsjung0516/monitor#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.18",
+    "postcss-cli": "^10.0.0"
+  }
+}
